@@ -1,0 +1,64 @@
+a49
+ 
+            <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang='en_us'>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <meta http-equiv="Content-Script-Type" content="text/javascript">
+   <meta http-equiv="Content-Style-Type" content="text/css">
+    <title>Sugar Setup Wizard:  Perform Setup</title>
+   <link REL="SHORTCUT ICON" HREF="include/images/sugar_icon.ico">
+   <link rel="stylesheet" href="install/install.css" type="text/css" />
+   <script type="text/javascript" src="install/installCommon.js"></script>
+</head>
+<body onload="javascript:document.getElementById('button_next2').focus();">
+<table cellspacing="0" cellpadding="0" border="0" align="center" class="shell">
+      <tr><td colspan="2" id="help"><a href="http://www.sugarcrm.com/docs/Administration_Guides/CommunityEdition_Admin_Guide_5.0/toc.html" target='_blank'>Help </a></td></tr>
+    <tr>
+      <th width="500">
+		<p>
+		<img src="include/images/sugar_md_open.png" alt="SugarCRM" border="0">
+		</p>
+		Perform Setup</th>
+    <th width="200" style="text-align: right;"><a href="http://www.sugarcrm.com" target="_blank">
+    <IMG src="include/images/sugarcrm_login.png" alt="SugarCRM" border="0"></a></th>
+</tr>
+<tr>
+   <td colspan="2"><b>Creating Sugar configuration file (config.php)</b><br> 
+            <br><b>Creating Sugar application tables, audit tables and relationship metadata</b><br><b>Creating the database</b>  sugarcrm  <b>on</b>  localhost:3306...done<br>.................................................<br><br><b>Creating default Sugar data</b><br><br>&nbsp&nbsp&nbsp&nbsp&nbsp<b>Creating default users... &nbsp&nbsp</b>done<br>&nbsp&nbsp&nbsp&nbsp&nbsp<b>Creating default scheduler jobs... &nbsp&nbsp</b>done<br><br><b>Populating the database tables with demo data (this may take a little while)</b><br><br><br><p><b>The setup of Sugar  6.5.22  is now complete!</b></p>
+
+Total time:  128.60501098633  seconds.<br />
+Approximate memory used: 57979680 bytes.
+
+    </td>
+</tr>
+<tr>
+<td align="right" colspan="2">
+<hr>
+<table cellspacing="0" cellpadding="0" border="0" class="stdTable">
+<tr>
+<td>
+     <form action="install.php" method="post" name="form" id="form">
+     <input type="hidden" name="current_step" value="8">
+     <table cellspacing="0" cellpadding="0" border="0" class="stdTable">
+       <tr>
+         <td>
+            &nbsp;
+         </td>
+         <td><input class="button" type="submit" name="goto" value="Next" id="button_next2"/></td>
+       </tr>
+     </table>
+     </form>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+<!--
+<bottle>Success!</bottle>
+-->
+0
+
