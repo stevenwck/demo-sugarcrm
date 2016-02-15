@@ -67,7 +67,7 @@ if ( sugar_is_file('custom/include/images/sugar_md.png') ) {
 }
 else {
 	// for demo purposes, change "sugar_md_open.png" below to "sugar_md_open_hp.png"
-    $login_image = '<IMG src="include/images/sugar_md_open_hp.png" alt="Sugar" width="340" height="25" style="margin: 5px 0;">';
+    $login_image = '<IMG src="include/images/sugar_md_open.png" alt="Sugar" width="340" height="25" style="margin: 5px 0;">';
 }
 $sugar_smarty->assign('LOGIN_IMAGE',$login_image);
 
